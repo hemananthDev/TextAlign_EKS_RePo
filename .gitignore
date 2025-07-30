@@ -1,4 +1,18 @@
+# Ignore folders with uploads and outputs
 uploads/
 aligned/
+
+# Python-specific
 *.log
 __pycache__/
+*.pyc
+.venv/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash
+*.backup
+terraform.tfvars
+terraform.tfvars.json
